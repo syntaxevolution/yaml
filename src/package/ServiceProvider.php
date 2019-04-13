@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Yaml\Package;
+namespace SyntaxEvolution\Yaml\Package;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -28,7 +28,7 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     private function registerService()
     {
-        $this->app->singleton('pragmarx.yaml', function () {
+        $this->app->singleton('syntaxevolution.yaml', function () {
             return new Yaml();
         });
     }

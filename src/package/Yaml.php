@@ -1,33 +1,33 @@
 <?php
 
-namespace PragmaRX\Yaml\Package;
+namespace SyntaxEvolution\Yaml\Package;
 
 use Illuminate\Support\Collection;
-use PragmaRX\Yaml\Package\Exceptions\MethodNotFound;
-use PragmaRX\Yaml\Package\Support\File;
-use PragmaRX\Yaml\Package\Support\Parser;
-use PragmaRX\Yaml\Package\Support\Resolver;
+use SyntaxEvolution\Yaml\Package\Exceptions\MethodNotFound;
+use SyntaxEvolution\Yaml\Package\Support\File;
+use SyntaxEvolution\Yaml\Package\Support\Parser;
+use SyntaxEvolution\Yaml\Package\Support\Resolver;
 
 class Yaml
 {
     /**
      * File class.
      *
-     * @var \PragmaRX\Yaml\Package\Support\File
+     * @var \SyntaxEvolution\Yaml\Package\Support\File
      */
     protected $file;
 
     /**
      * Parser object.
      *
-     * @var \PragmaRX\Yaml\Package\Support\Parser
+     * @var \SyntaxEvolution\Yaml\Package\Support\Parser
      */
     protected $parser;
 
     /**
      * Resolver object.
      *
-     * @var \PragmaRX\Yaml\Package\Support\Resolver
+     * @var \SyntaxEvolution\Yaml\Package\Support\Resolver
      */
     protected $resolver;
 

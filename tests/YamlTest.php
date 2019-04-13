@@ -1,12 +1,12 @@
 <?php
 
-namespace PragmaRX\Yaml\Tests;
+namespace SyntaxEvolution\Yaml\Tests;
 
 use Illuminate\Support\Collection;
-use PragmaRX\Yaml\Package\Exceptions\InvalidYamlFile;
-use PragmaRX\Yaml\Package\Exceptions\MethodNotFound;
-use PragmaRX\Yaml\Package\Facade as YamlFacade;
-use PragmaRX\Yaml\Package\Yaml as YamlService;
+use SyntaxEvolution\Yaml\Package\Exceptions\InvalidYamlFile;
+use SyntaxEvolution\Yaml\Package\Exceptions\MethodNotFound;
+use SyntaxEvolution\Yaml\Package\Facade as YamlFacade;
+use SyntaxEvolution\Yaml\Package\Yaml as YamlService;
 
 class YamlTest extends TestCase
 {

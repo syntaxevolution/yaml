@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Yaml\Package\Support;
+namespace SyntaxEvolution\Yaml\Package\Support;
 
 class File
 {

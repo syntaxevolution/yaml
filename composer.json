@@ -1,5 +1,5 @@
 {
-    "name": "pragmarx/yaml",
+    "name": "syntaxevolution/yaml",
     "description": "Load your Laravel config files using yaml",
     "keywords": [
         "laravel",
@@ -9,9 +9,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Antonio Carlos Ribeiro",
-            "email": "acr@antoniocarlosribeiro.com",
-            "role": "Creator & Designer"
+            "name": "Topher Lazarz",
+            "email": "topher@meanservers.com",
+            "role": "Forker and Contributor"
         }
     ],
     "require": {
@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "PragmaRX\\Yaml\\Package\\": "src/package",
-            "PragmaRX\\Yaml\\Tests\\": "tests/"
+            "SyntaxEvolution\\Yaml\\Package\\": "src/package",
+            "SyntaxEvolution\\Yaml\\Tests\\": "tests/"
         }
     },
     "extra": {
         "component": "package",
         "laravel": {
             "providers": [
-                "PragmaRX\\Yaml\\Package\\ServiceProvider"
+                "SyntaxEvolution\\Yaml\\Package\\ServiceProvider"
             ],
             "aliases": {
-                "Yaml": "PragmaRX\\Yaml\\Package\\Facade"
+                "Yaml": "SyntaxEvolution\\Yaml\\Package\\Facade"
             }
         }
     },

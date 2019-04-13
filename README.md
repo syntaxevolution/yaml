@@ -167,10 +167,6 @@ format:
 - Laravel 5.5
 - PHP 7.0
 
-## Author
-
-[Antonio Carlos Ribeiro](http://twitter.com/iantonioribeiro)
-
 ## License
 
 This package is licensed under the MIT License - see the `LICENSE` file for details
